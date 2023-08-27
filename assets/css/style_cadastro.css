@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body::before {
+    content: "";
+    background-color: rgb(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.logo img {
+    height: 120px;
+    width: 130px;  
+
+}
+
+.header {
+    padding: 7px 50px;
+    position: relative;
+    z-index: 10;
+    background-image: linear-gradient(black, rgba(1, 1, 1, 0));
+}
+
+.signup_body {
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 85%;
+    height: 490px;
+    margin: auto;
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+.signup_body h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-top: 0;
+
+}
+
+.signup_body input {
+    height: 50px;
+    width: 50%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.name_email {
+    float: left;
+    width: 47%;
+}
+
+.name_email input {
+    width: 100%;
+}
+
+.passwords input {
+    margin-left: 3%;
+}
+
+.input_box {
+    margin-bottom: 20px;
+}
+
+.signup_body input:hover {
+    background-color: #444;
+
+}
+
+.signup_body button {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(216, 216, 48);
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 10px;
+    margin-bottom: 15px;
+
+}
+
+.signup_body button:hover {
+    background-color: rgb(248, 248, 12);
+    cursor: pointer;
+
+}
+
+.support {
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 5px;
+
+}
+
+.support input{
+    width: 15px;
+    height: 15px;
+
+}
+
+.help a {
+    text-decoration: none;
+    color: #737373;
+
+}
+
+.help a:hover {
+    text-decoration: underline;
+
+}
+
+.terms {
+    color: #737373;
+    font-size: 13px;
+
+}
+
+.terms a {
+    text-decoration: none;
+    color: #0071eb;
+
+}
+
+.terms a:hover {
+    text-decoration: underline;
+    
+}
